@@ -1,29 +1,10 @@
 # Ole::Cukes
 
-TODO: Write a gem description
+This is an example for writing Cucumber tests using the [OLE QA Framework](http://github.com/jkwaldrip/ole-qa-framework).
 
-## Installation
+    * Plain-English-like feature definitions can be found in the [features/](/features/) directory.
+    * Regex-matching test code can be found in the [features/step_definitons/](/features/step_definitions/) directory.
+    * Before-and-after code for setting up the OLE QA Framework session can be found in [features/support/env.rb](/features/support/env.rb).
+    * Additional support code for handling OLE QA Framework functions can be found in [lib/ole/cukes.rb](/lib/ole/cukes.rb) and [lib/ole/cukes/](/lib/ole/cukes/).
 
-Add this line to your application's Gemfile:
 
-    gem 'ole-cukes'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ole-cukes
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
