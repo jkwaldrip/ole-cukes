@@ -15,3 +15,11 @@ dir = File.join(File.dirname(__FILE__),'../../')
 $:.unshift(dir) unless $:.include?(dir)
 
 require 'lib/ole/cukes.rb'
+
+Before do |scenario|
+  @ole = OLE_QA::Framework::Session.new
+end
+
+After do |scenario|
+  @ole.quit
+end
