@@ -7,7 +7,7 @@ This is an example for writing Cucumber tests using the [OLE QA Framework](http:
 * Before-and-after code for setting up the OLE QA Framework session can be found in [features/support/env.rb](/features/support/env.rb).
 * Additional support code for handling OLE QA Framework functions can be found in [lib/ole/cukes.rb](/lib/ole/cukes.rb) and [lib/ole/cukes/](/lib/ole/cukes/).
 
-## Example.md
+## Example File
 
 See [Example.md](/Example.md) for a sample of Cucumber's output after concluding a successful Marc Bibliographic Editor test.
 
