@@ -12,4 +12,17 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
+Given /^I open a new bib record$/ do
+  @bib_editor = OLE_QA::Framework::OLELS::Bib_Editor.new(@ole)
+  @bib_editor.open
+end
 
+When /^I add a title "(.*?)"$/ do |input|
+  @bib_editor.data_line.tag_field.when_present.set('245')
+  @bib_editor.data_line.data_field.when_present.set("|a#{input}")
+end
+
+Then /^I can save the record$/ do
+  save_msg = @bib_editor.save_record
+  raise('Save not successful!') unless save_msg =~ /success/
+end
