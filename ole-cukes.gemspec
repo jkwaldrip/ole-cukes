@@ -22,4 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
 
   spec.add_dependency 'ole-qa-framework','~> 3.7.3'
+  spec.add_dependency 'cucumber'
 end
