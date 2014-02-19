@@ -11,3 +11,6 @@ This is an example for writing Cucumber tests using the [OLE QA Framework](http:
 
 See [Example.md](/Example.md) for a sample of Cucumber's output after concluding a successful Marc Bibliographic Editor test.
 
+## Features
+
+See the [Features](/features) directory for Cucumber's test files.
